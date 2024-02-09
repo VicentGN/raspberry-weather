@@ -1,5 +1,4 @@
 const express = require('express');
-//const auth = require('../../middlewares/auth');
 const { auth } = require('express-oauth2-jwt-bearer');
 const weatherController = require('../../controllers/weather.controller');
 
